@@ -30,7 +30,7 @@ const DB_PATH = process.env.DB_PATH   // *  || './db_Daten.json'
 // ! Middleware
 app.use(morgan('dev'))                              // * morgan für Logging
 // !!!! whitelist für CORS erstellen?
-const whitelist = ['http://localhost:', '127.0.0.1:']
+const whitelist = ['http://localhost:']
 app.use(cors({ origin: `${whitelist}${PORT_FRONTEND_REACT}` }))       // * cors Sicherheit für Zugriff auf Frontend
 app.use(express.json())                            // *  Express-App kann JSON lesen     evtl. noch multer
 // * in FrontEnd        content-type: application/json

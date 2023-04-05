@@ -1,3 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homePage 
+article{
+  display: flex;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  gap: 10px;
+}
+
+.inputHuman{
+  display:flex;
+  flex-direction: column;
+  background-color: orange ;
+
+}
+
+
+
+
+
+
+
+
+
 /* .App {
   text-align: center;
 }

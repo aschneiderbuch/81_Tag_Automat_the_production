@@ -23,7 +23,7 @@ const [rerender, setRerender] = useState(false)
 
 <article>
 <InputHuman setRerender={setRerender}></InputHuman>
-<OutputAnzeige></OutputAnzeige>
+<OutputAnzeige rerender={rerender}></OutputAnzeige>
 <Sell setRerender={setRerender}></Sell>
 </article>
     </section>

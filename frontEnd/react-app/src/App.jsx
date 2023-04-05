@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
 // ! import Datein
-import './App.css';
+import './App.scss';
 import { HomePage } from './pages/HomePage.jsx';
 
 function App() {

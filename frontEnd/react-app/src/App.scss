@@ -1,34 +1,44 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.homePage > article {
+.homePage>article{
   display: flex;
   width: 300px;
   text-align: center;
-  margin: auto;
+  margin:  auto;
   gap: 10px;
 }
 
-.inputHuman > article {
-  display: flex;
+.inputHuman>article{
+  display:flex;
   flex-direction: column;
-  background-color: orange;
-}
-.inputHuman > article article {
-  display: flex;
+  background-color: orange ;
+
+  article{
+    display: flex;
   justify-content: baseline;
   align-items: center;
   padding: 1rem;
+ 
+  }
 }
 
-.outputAnzeige > section {
+.outputAnzeige>section{
   display: flex;
   flex-direction: column-reverse;
   width: 30vw;
 }
+
+
+
+
+
+
+
+
 
 /* .App {
   text-align: center;
@@ -68,4 +78,4 @@
     transform: rotate(360deg);
   }
 }
- *//*# sourceMappingURL=App.css.map */
+ */

@@ -11,9 +11,8 @@ import express_validator from 'express-validator';
 import nodemailer from 'nodemailer';
                 // in db_Daten.json     leeres [] rein
 
-
 // ! import Daten
-
+import { loadFile, saveFile     } from './funktionen.js'  // *  Funktionen für fetches 
 
 
 
